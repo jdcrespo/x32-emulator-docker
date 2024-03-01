@@ -1,0 +1,6 @@
+version: "3"
+services:
+  x32-emulator:
+    container_name: x32-emulator
+    build: .
+    network_mode: host
